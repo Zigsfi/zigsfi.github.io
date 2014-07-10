@@ -1,0 +1,40 @@
+/*
+ * Author: Arthur Berman
+ * URL: http://www.zigsfi.com
+ */
+
+
+p {
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+
+.centered {
+        text-align: center;
+}
+
+.right {
+        text-align: right;
+
+}
+
+.left {
+        text-align: left;
+}
+
+a {
+        word-wrap: break-word;
+
+}
+
+
+a:hover, a:focus {
+        color: #aabbff;
+        text-decoration: none;
+        outline:1;
+}
+
+
+
+
