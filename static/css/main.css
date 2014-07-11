@@ -61,7 +61,7 @@ a:before, a:after {
         color: #000000;
 }
 
-.nav > ul > li > a:hover {
+.nav > ul > li > a {
         color: #ffffff;
 }
 
@@ -80,9 +80,6 @@ a:before, a:after {
         padding-right: 20px;
 }
 
-.right {
-        text-align: right;
-}
 
 h1 {
         display: inline;
