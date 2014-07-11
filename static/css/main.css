@@ -36,7 +36,7 @@ a {
 
 
 a:hover, a:focus {
-        color: #aabbff;
+        color: #ffffff;
         text-decoration: none;
         outline:1;
 }
@@ -49,10 +49,16 @@ a:before, a:after {
         transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+
+
 .nav {
         text-transform: uppercase;
         background-color: #15a0df;
         color: #ffffff;
+}
+
+.nav > li > a:hover {
+        color: #000000;
 }
 
 .big {
