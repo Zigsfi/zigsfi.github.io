@@ -52,6 +52,7 @@ a:before, a:after {
 
 
 .nav {
+        float:right;
         text-transform: uppercase;
         color: #ffffff;
 }
@@ -74,12 +75,20 @@ a:before, a:after {
         padding-right: 100px;
 }
 .navlist {
+        
         display: inline;
         list-style-type: none;
         padding-right: 20px;
 }
 
+.name {
+        float:left;
+}
+
 .header {
+        float:left;
+        clear:none;
+        display:inline;
         background-color: #15a0df;
 }
 h1 {
