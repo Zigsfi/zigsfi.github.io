@@ -61,7 +61,7 @@ a:before, a:after {
         color: #000000;
 }
 
-a.nav {
+.nav > ul > li > a:hover {
         color: #ffffff;
 }
 
@@ -72,6 +72,7 @@ a.nav {
 
 .navlist > li {
         display: inline;
+        padding-right: 100px;
 }
 .navlist {
         display: inline;
@@ -79,4 +80,7 @@ a.nav {
         padding-right: 20px;
 }
 
-
+h1 {
+        font-size: 30px;
+        color: #11aaff;
+}
