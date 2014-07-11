@@ -59,6 +59,10 @@ a:before, a:after {
         padding-top: 50px;
         padding-bottom: 100px;
 }
+
+.navlist > li {
+        display: inline;
+}
 .navlist {
         display: inline;
         list-style-type: none;
