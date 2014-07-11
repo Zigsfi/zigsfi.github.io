@@ -83,6 +83,15 @@ a:before, a:after {
 
 .name {
         float:left;
+        padding-left:5%;
+        
+}
+.name > a {
+        color:white;
+        font-weight:bold;
+        text-decoration:none;
+        letter-spacing:2px;
+        font-size:40px;
 }
 
 .header {
@@ -91,7 +100,14 @@ a:before, a:after {
         width:100%;
         display:inline;
         background-color: #15a0df;
+        position:absolute;
+        top:0px;
+        left:0px;
 }
+
+.page {
+        positio
+}dsf w
 h1 {
         display: inline;
         font-size: 30px;
