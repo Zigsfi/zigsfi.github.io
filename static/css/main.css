@@ -57,8 +57,12 @@ a:before, a:after {
         color: #ffffff;
 }
 
-.nav > li > a:hover {
+.nav > ul > li > a:hover {
         color: #000000;
+}
+
+a.nav {
+        color: #ffffff;
 }
 
 .big {
