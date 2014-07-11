@@ -49,6 +49,7 @@ a:before, a:after {
 }
 
 .nav {
+        text-transform: uppercase;
         background-color: #15a0df;
 }
 
