@@ -4,14 +4,9 @@
  */
 body {
         margin-top:0px;
+        margin-bottom:0px;
         margin-left:0px;
         margin-right:0px;
-        margin-bottom:0px;
-}
-.abs {
-        position:absolute;
-        top=0px;
-        left=0px;
 }
 p {
         line-height: 28px;
@@ -109,9 +104,9 @@ a:before, a:after {
         width:100%;
         display:inline;
         background-color: #15a0df;
-        position:static;
-        top:0px;
-        left:0px;
+        
+        margin-top:0px;
+        margin-left:0px;
 }
 h1 {
         display: inline;
