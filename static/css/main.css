@@ -80,7 +80,12 @@ a:before, a:after {
         padding-right: 20px;
 }
 
+.right {
+        text-align: right;
+}
+
 h1 {
+        display: inline;
         font-size: 30px;
         color: #11aaff;
 }
