@@ -2,7 +2,17 @@
  * Author: Arthur Berman
  * URL: http://www.zigsfi.com
  */
-
+body {
+        margin-top:0px;
+        margin-left:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+}
+.abs {
+        position:absolute;
+        top=0px;
+        left=0px;
+}
 p {
         line-height: 28px;
         margin-top: 30px;
@@ -99,9 +109,9 @@ a:before, a:after {
         width:100%;
         display:inline;
         background-color: #15a0df;
-        
-        margin-top:0px;
-        margin-left:0px;
+        position:static;
+        top:0px;
+        left:0px;
 }
 h1 {
         display: inline;
