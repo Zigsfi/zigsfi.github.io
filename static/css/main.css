@@ -55,7 +55,10 @@ a:before, a:after {
         color: #ffffff;
 }
 
-
+.big {
+        padding-top: 50px;
+        padding-bottom: 100px;
+}
 .navlist {
         display: inline;
         list-style-type: none;
