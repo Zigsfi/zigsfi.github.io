@@ -3,9 +3,10 @@
  * URL: http://www.zigsfi.com
  */
 
-* {
-        margin-left=0px;
-        margin-top=0px;
+.abs {
+        position:absolute;
+        top=0px;
+        left=0px;
 }
 p {
         line-height: 28px;
