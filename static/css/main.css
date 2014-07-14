@@ -12,7 +12,7 @@ body {
 p {
         line-height: 28px;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         color: #0000ff;
 }
 .name > a.explanation {
@@ -42,7 +42,7 @@ p {
 
 a {
         word-wrap: break-word;
-        color: #00ffff;
+        color: #0099ff;
         -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
         -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
         -o-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -52,7 +52,7 @@ a {
 
 
 a:hover, a:focus {
-        color: #ffffff;
+        color: #7e7e7e;
         text-decoration: none;
         outline:1;
 }
