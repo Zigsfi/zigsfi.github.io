@@ -15,18 +15,27 @@ p {
         margin-bottom: 30px;
         color: #0000ff;
 }
+.name > a.explanation {
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size:10px;
+  letter-spacing:0px;
 
+  
+}
 .centered {
         text-align: center;
 }
 
 .right {
         text-align: right;
+        float:right;
 
 }
 
 .left {
         text-align: left;
+        float:left;
 }
 
 a {
@@ -72,7 +81,7 @@ a:before, a:after {
 
 .big {
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
 }
 
 .navlist > li {
@@ -121,12 +130,7 @@ a:before, a:after {
 a:hover.animat {
         -webkit-animation-duration: 3s;
         -webkit-animation-name: shloop;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-direction: alternate;
-        -moz-animation-duration: 3s;
-        -moz-animation-name: shloop;
-        -moz-animation-iteration-count: infinite;
-        -moz-animation-direction: alternate;
+
   
 }
 
@@ -162,7 +166,10 @@ a:hover.animat {
                 color:blue;
         }
 }
-
+.realname {
+ font-size:30px;
+ color:
+}
 
 
 .header {
