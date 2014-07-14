@@ -84,6 +84,7 @@ a:before, a:after {
         display: inline;
         list-style-type: none;
         padding-right: 20px;
+        
 }
 
 .name {
