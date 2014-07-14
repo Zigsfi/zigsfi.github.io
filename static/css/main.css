@@ -106,17 +106,41 @@ a:before, a:after {
         text-decoration:none;
         letter-spacing:5px;
         font-size:30px;
-}
-
-.name > a:hover {
-        color:blue;
         animation-duration: 3s;
-        animation-name: slidein;
+        animationname: slidein;
         animation-iteration-count: infinite;
         animation-direction: alternate;
 }
 
-@keyframes slidein {
+.name > a:hover {
+       
+
+}
+
+a:hover.animat {
+        -webkit-animation-duration: 3s;
+        -webkit-animation-name: shloop;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+        -moz-animation-duration: 3s;
+        -moz-animation-name: shloop;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: alternate;
+  
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@-moz-keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%; 
@@ -128,17 +152,18 @@ a:before, a:after {
   }
 }
 
-
-@keyframes shloop {
+@-webkit-keyframes shloop {
         from {
-                margin-left:0%;
-                width: 300%;
+                font-size: 30px;
         }
         to {
-                margin-left:100%;
-                width:100%;
+                font-size:0%;
+                color:blue;
         }
 }
+
+
+
 .header {
         float:left;
         clear:none;
