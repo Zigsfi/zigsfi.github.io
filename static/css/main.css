@@ -124,14 +124,12 @@ a:before, a:after {
         animation-direction: alternate;
 }
 
-.name > a:hover {
-       
 
-}
 
 a:hover.animat {
-        -webkit-animation-duration: 3s;
+        -webkit-animation-duration: 1s;
         -webkit-animation-name: shloop;
+        -webkit-animation-fill-mode: forwards;
 
   
 }
