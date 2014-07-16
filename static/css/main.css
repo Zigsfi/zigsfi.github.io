@@ -10,11 +10,23 @@
   -webkit-animation-duration: 1s;
   -webkit-animation-name: shloop;
   -webkit-animation-fill-mode: forwards;
+     list-style:none;
+   list-style-position:inside;
+   margin:0;
+   padding:0;
 
   display:inline;
  }
  #Zigsfi:hover > ul > li {
    display:inline;
+   list-style:none;
+   list-style-position:inside;
+   margin:0;
+   padding:0;
+ }
+ #Zigsfi:hover >ul >li > a {
+   color:white;
+   size:20px;
  }
 body {
         margin-top:0px;
@@ -190,7 +202,7 @@ a:hover.animat {
                 font-size: 2px;
         }
         to {
-                font-size:30px;
+                font-size:20px;
                 
                 
 
