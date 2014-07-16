@@ -2,6 +2,20 @@
  * Author: Arthur Berman
  * URL: http://www.zigsfi.com
  */
+ 
+ #Zigsfi > ul{
+   display:none;
+ }
+ #Zigsfi:hover > ul {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: shloop;
+  -webkit-animation-fill-mode: forwards;
+
+  display:inline;
+ }
+ #Zigsfi:hover > ul > li {
+   display:inline;
+ }
 body {
         margin-top:0px;
         margin-bottom:0px;
@@ -101,7 +115,6 @@ a:before, a:after {
 .name {
         float:left;
         padding-left:18%;
-        width:8%;
 }
 
 .page {
@@ -118,6 +131,7 @@ a:before, a:after {
         text-decoration:none;
         letter-spacing:5px;
         font-size:30px;
+        text-align: center;
         animation-duration: 3s;
         animationname: slidein;
         animation-iteration-count: infinite;
@@ -138,7 +152,11 @@ a:hover.animat {
   -webkit-animation-duration: 1s;
   -webkit-animation-name: shloop;
   -webkit-animation-fill-mode: forwards;
+  text-align: center;
   
+}
+.inline {
+  display:inline;
 }
 .subname > a:hover {
   color:white;
@@ -172,10 +190,9 @@ a:hover.animat {
                 font-size: 2px;
         }
         to {
-                font-size:10px;
-                color:blue;
-                letter-spacing: 0px;
-                text-align:centered;
+                font-size:30px;
+                
+                
 
         }
 }
