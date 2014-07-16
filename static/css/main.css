@@ -138,6 +138,10 @@ a:hover.animat {
   -webkit-animation-duration: 1s;
   -webkit-animation-name: shloop;
   -webkit-animation-fill-mode: forwards;
+  
+}
+.subname > a:hover {
+  color:white;
 }
 
 @-webkit-keyframes slidein {
@@ -168,7 +172,7 @@ a:hover.animat {
                 font-size: 0px;
         }
         to {
-                font-size:20px;
+                font-size:10px;
                 color:blue;
                 letter-spacing: 0px;
 
