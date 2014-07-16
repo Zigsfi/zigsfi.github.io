@@ -169,12 +169,13 @@ a:hover.animat {
 
 @-webkit-keyframes shloop {
         from {
-                font-size: 0px;
+                font-size: 2px;
         }
         to {
                 font-size:10px;
                 color:blue;
                 letter-spacing: 0px;
+                text-align:centered;
 
         }
 }
