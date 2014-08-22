@@ -145,6 +145,7 @@ a:before, a:after {
 }
 .page {
           background-color:#112233;
+          width:100%;
 }
 .name > a {
         color:white;
