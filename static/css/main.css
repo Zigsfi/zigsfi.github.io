@@ -182,43 +182,9 @@ a:hover.animat {
   color:white;
 }
 
-@-webkit-keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-@-moz-keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes shloop {
-        from {
-                font-size: 2px;
-        }
-        to {
-                font-size:20px;
-                
-                
-
-        }
-}
 .realname {
  font-size:30px;
- color:
+ color:blue;
 }
 
 
