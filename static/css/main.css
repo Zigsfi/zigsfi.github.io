@@ -41,7 +41,7 @@
  }
  .education {
    margin-left:2%;
-   width:50%;
+   width:70%;
  }
 body {
         margin-top:0px;
@@ -52,7 +52,7 @@ body {
 }
 
 .professional > ul {
-  width:40%;
+  width:60%;
   color:#00ffff;
   font-size:20px;
 }
