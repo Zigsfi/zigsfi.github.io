@@ -52,10 +52,10 @@ body {
         display:inline;
 }
 .professional {
-  float:right;
+  border-right:0px;
 }
 .professional > ul {
-  width:40%;
+  width:50%;
   color:#00ffff;
   font-size:20px;
 }
