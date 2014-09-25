@@ -39,12 +39,22 @@
    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
    
  }
+ .education {
+   margin-left:2%;
+ }
 body {
         margin-top:0px;
         margin-bottom:0px;
         margin-left:0px;
         margin-right:0px;
         display:inline;
+}
+.professional > ul {
+  width:50%;
+  color:green;
+}
+.professional > ul >li >ul {
+  color:blue;
 }
 #content {
         line-height: 28px;
