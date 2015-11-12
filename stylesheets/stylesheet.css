@@ -25,8 +25,8 @@ a {
 @media (min-width: 768px) {
     .container {
         margin-top:2.5vh;
-        margin-left:10vw;
-        margin-right:10vw;
+        margin-left:20vw;
+        margin-right:20vw;
         transform:translateZ(-20px);
 
     }
